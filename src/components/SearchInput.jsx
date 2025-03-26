@@ -14,7 +14,7 @@ function Search({ onSearch }) {
   };
 
   return (
-    <div>
+    <div className='inputSearch'>
       <input
         type="text"
         placeholder="Buscar usuario en GitHub"

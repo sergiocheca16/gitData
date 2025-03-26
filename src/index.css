@@ -19,7 +19,7 @@ a {
   text-decoration: inherit;
 }
 a:hover {
-  color: #535bf2;
+  color: #f53948;
 }
 
 body {
@@ -33,6 +33,25 @@ body {
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
+  color: rgb(9, 2, 84);
+}
+
+h2 {
+  color: rgb(17, 4, 165);
+}
+
+.card {
+  border: dotted 5px;
+}
+
+.inputSearch {
+  
+  margin: 20px;
+}
+
+img {
+  scale: 1.5;
+  margin: 50px;
 }
 
 button {
@@ -46,12 +65,25 @@ button {
   cursor: pointer;
   transition: border-color 0.25s;
 }
-button:hover {
-  border-color: #646cff;
-}
+/* button:hover {
+  border-color: #cb0e0e;
+} */
+
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
+}
+
+input {
+  border: solid 1px rgb(27, 10, 207);
+  padding: 12px;
+  margin: 10px;
+  border-radius: 100px;
+}
+
+button {
+  border-radius: 100px;
+  border: solid 1px rgb(27, 10, 207);
 }
 
 @media (prefers-color-scheme: light) {
